@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
+import Layout from './components/Layout';
 
 export default class err404 extends Component {
   render() {
     return (
-      <div>
+      <Layout>
         Ah snap! nothing here
         404
-      </div>
+      </Layout>
     );
   }
 }
