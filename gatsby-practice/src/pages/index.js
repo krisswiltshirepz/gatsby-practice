@@ -6,5 +6,12 @@ export default () => (
     <div>Hello world!
        <Link to="/blog/">blog</Link>
     </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">Hello</div>
+        <div class="col-4">Hello</div>
+        <div class="col-4">Hello</div>
+      </div>
+    </div>
   </Layout>
 );
